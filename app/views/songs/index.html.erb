@@ -1,7 +1,9 @@
 <ul>
 <% @songs.each do |song| %>
   <li><%= display_artist(song) %> - <%= link_to song.title, song_path(song) %>
-      <% if song.album_cover.url(:thumb) %> <%= image_tag song.album_cover.url(:thumb) %>  <% end %>
+      <% if song.album_cover.url(:thumb) %>
+        <%= image_tag song.album_cover.url(:thumb) %>
+       <% end %>
   </li>
 <% end %>
 </ul>
