@@ -17653,3 +17653,7 @@ Command :: file -b --mime '/tmp/dfa8327f5bfa4c672a04f9b38e348a7020190301-7617-1w
 Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/dfa8327f5bfa4c672a04f9b38e348a7020190301-7617-4o9axn.gif[0]' 2>/dev/null
 Command :: identify -format %m '/tmp/dfa8327f5bfa4c672a04f9b38e348a7020190301-7617-4o9axn.gif[0]'
 Command :: convert '/tmp/dfa8327f5bfa4c672a04f9b38e348a7020190301-7617-4o9axn.gif' -coalesce -auto-orient -resize "400x306>" -layers "optimize" '/tmp/e944661d74828e18e2e440f6a503626d20190301-7617-1cf1rt4'
+[paperclip] Trying to link /tmp/e944661d74828e18e2e440f6a503626d20190301-7617-1cf1rt4 to /tmp/a1c649050014fa931ef81907c63ffb9c20190301-7617-1l5g9rn
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/a1c649050014fa931ef81907c63ffb9c20190301-7617-1l5g9rn[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/a1c649050014fa931ef81907c63ffb9c20190301-7617-1l5g9rn[0]'
+Command :: convert '/tmp/a1c649050014fa931ef81907c63ffb9c20190301-7617-1l5g9rn' -coalesce -auto-orient -resize "100x100>" -layers "optimize" '/tmp/c29aff43bc7b617e52de1336ee4d621920190301-7617-1u802fx'
